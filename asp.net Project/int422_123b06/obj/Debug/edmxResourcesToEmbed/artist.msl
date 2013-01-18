@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="artistModelStoreContainer" CdmEntityContainer="artistEntities">
+    <EntitySetMapping Name="Albums">
+      <EntityTypeMapping TypeName="artistModel.Album">
+        <MappingFragment StoreEntitySet="Album">
+          <ScalarProperty Name="album_id" ColumnName="album_id" />
+          <ScalarProperty Name="artist_id" ColumnName="artist_id" />
+          <ScalarProperty Name="a_name" ColumnName="a_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Artists">
+      <EntityTypeMapping TypeName="artistModel.Artist">
+        <MappingFragment StoreEntitySet="Artists">
+          <ScalarProperty Name="artist_id" ColumnName="artist_id" />
+          <ScalarProperty Name="stage_name" ColumnName="stage_name" />
+          <ScalarProperty Name="l_name" ColumnName="l_name" />
+          <ScalarProperty Name="f_name" ColumnName="f_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Songs">
+      <EntityTypeMapping TypeName="artistModel.Song">
+        <MappingFragment StoreEntitySet="Songs">
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="artist_id" ColumnName="artist_id" />
+          <ScalarProperty Name="album_id" ColumnName="album_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_songs">
+      <EntityTypeMapping TypeName="artistModel.User_songs">
+        <MappingFragment StoreEntitySet="User_songs">
+          <ScalarProperty Name="u_userSong_id" ColumnName="u_userSong_id" />
+          <ScalarProperty Name="u_user_id" ColumnName="u_user_id" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="artistModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="u_user_id" ColumnName="u_user_id" />
+          <ScalarProperty Name="l_name" ColumnName="l_name" />
+          <ScalarProperty Name="f_name" ColumnName="f_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
