@@ -1,0 +1,93 @@
+﻿Build started 16/12/2012 2:04:55 AM.
+     1>Project "C:\Users\Freddy\GitHub\X-CpaCdr\MovieBrowser.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MovieBrowser.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt application.cpp bconsole.cpp text.cpp
+         text.cpp
+         bconsole.cpp
+         application.cpp
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(147): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(174): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(188): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(189): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\freddy\github\x-cpacdr\application.cpp(209): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MovieBrowser.exe.embed.manifest.res" Debug\MovieBrowser_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MovieBrowser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.lib" /MACHINE:X86 Debug\MovieBrowser.exe.embed.manifest.res
+         Debug\application.obj
+         Debug\bconsole.obj
+         Debug\text.obj
+         cbutton.obj
+         cchecklist.obj
+         ccheckmark.obj
+         cdialog.obj
+         cfield.obj
+         cframe.obj
+         clabel.obj
+         clineedit.obj
+         cmenu.obj
+         cmenuitem.obj
+         console.obj
+         ctext.obj
+         cveditline.obj
+     1>cveditline.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>ctext.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>console.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cmenuitem.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cmenu.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>clineedit.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>clabel.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cframe.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cfield.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cdialog.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>ccheckmark.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cchecklist.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cbutton.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MovieBrowser.exe.embed.manifest" /manifest Debug\MovieBrowser.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MovieBrowser.exe.embed.manifest.res" Debug\MovieBrowser_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MovieBrowser.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.lib" /MACHINE:X86 Debug\MovieBrowser.exe.embed.manifest.res
+         Debug\application.obj
+         Debug\bconsole.obj
+         Debug\text.obj
+         cbutton.obj
+         cchecklist.obj
+         ccheckmark.obj
+         cdialog.obj
+         cfield.obj
+         cframe.obj
+         clabel.obj
+         clineedit.obj
+         cmenu.obj
+         cmenuitem.obj
+         console.obj
+         ctext.obj
+         cveditline.obj
+     1>cveditline.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>ctext.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>console.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cmenuitem.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cmenu.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>clineedit.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>clabel.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cframe.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cfield.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cdialog.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>ccheckmark.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cchecklist.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>cbutton.obj : warning LNK4204: 'C:\Users\Freddy\GitHub\X-CpaCdr\Debug\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         MovieBrowser.vcxproj -> C:\Users\Freddy\GitHub\X-CpaCdr\Debug\MovieBrowser.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\MovieBrowser.unsuccessfulbuild".
+         Touching "Debug\MovieBrowser.lastbuildstate".
+     1>Done Building Project "C:\Users\Freddy\GitHub\X-CpaCdr\MovieBrowser.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.86

@@ -1,5 +1,0 @@
-Freddy Cheungh
-Today's date is:     Thursday, October 04, 2012
-The current time is: 5:19:01 PM
-
-http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.fileupload.aspx

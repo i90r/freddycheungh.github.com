@@ -1,0 +1,9 @@
+
+First line will determine which marker value will be used.
+
+This is DataReader3.txt which will is primarily to test the resetMarker(...) method with null marker values.
+//this will show all the text including comments because the marker is null. Null means there are no comments.
+
+This is the last test for DataReaderImpl_1.java, it will simply make sure that everything is shown because there is no comment marker. 
+
+This will also test blank lines, and spaces.

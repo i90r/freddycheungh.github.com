@@ -1,0 +1,41 @@
+td.title{ /*Can only be applicable on td. Used on the title of the index.html (clients).*/
+        font-family:"Comic Sans MS", Serif;
+        font-size:12pt;
+        text-align:center;
+        text-decoration:underline;
+        font-weight:bold;
+        }
+p:first-letter{ /*Pseudo element used for changing the first letter on a p tag to a 
+				25 pixels size letter.*/
+                font-size:25px;
+                }
+html{ /*Used to set the entire html color to dark orange and its text color to black.*/
+    background-color:#CC9933; 
+    color:#000000;
+    }
+table{ /*Set for table, applying a border and its color. Also applying width to the main
+		table.*/
+    border-style:dotted;
+    border-color:#FFFFFF; 
+    border-width:thick;
+    width:990px; 
+    background-color:#009966;} 
+p{ /*Used for indentation. Attributes set once the p tag is used.*/
+    text-indent:0.4in;
+    }
+ol.decimal{ /*Can only be used on ol tag. Used on number listing. eg:1,2,3,4...*/
+            list-style-type:decimal;
+            }
+ol.letter{ /*Can only be used on ol tag. Applying a letter listing. eg:a,b,c,d...*/
+        list-style-type:lower-alpha;
+        }
+span.color1{ /*Only applied for the span tag. When color1 is called, changes the 
+			background color to red and font color to black.*/
+            background-color:#C80000;
+            color:#000000;
+            }
+span.color2{ /*Only applied for the span tag. When color2 is called, changes the 
+			background color to yellow and the font color to black.*/
+            background-color:#FFCC00; 
+            color:#000000;
+            }

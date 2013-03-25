@@ -1,0 +1,56 @@
+body{ /*Used for all the main pages body tag, setting its background color and text color.*/ 
+    background-color:#FFFFFF; 
+    color:#000000; 
+    }
+caption{ /*Set the caption tag to underline the contents inside it and to set the content to bold.*/
+        text-decoration:underline; 
+        font-weight:bold;
+    }
+.indent{ /*Used on td or p tags, set a 0.4 inch indentation on its content.*/
+        text-indent:0.4in;
+        }
+.titletext{ /*Applied to titles specially. Can be applied on any tag as long as it's a title*/
+            font-family:"Comic Sans MS", serif;
+            }
+.right{ /*Can be used on any tag. It was used specially for the second or right hand side of the main table.*/
+        vertical-align:top; 
+        background-color:#C0C0C0;
+        }
+.center{ /*Can be applied on any tag. In this case, it was implemented on tds to align text.*/
+        text-align:center;
+        }
+.italic{ /*Can be used on any tag. Was applied on the first td of the right hand side table.*/
+        font-style:italic;
+        }
+span.text{ /*Applied only on the span tag.*/
+        text-decoration:underline; 
+        font-weight:bold;
+        }
+td, th{ /*Applied where td and th tags are used.*/
+        font-family:"tahoma", serif;
+        }
+hr.width{ /*Can only be apply for hr tag. Chaging the width of the hr line to 75%.*/
+        width:75%;
+        }
+a:link{ /*Used for links. Changes the link color to red.*/
+        color:#FF0000;
+        }
+a:hover{ /*Applied for link. Changes the color of the link to yellow once it is hover*/
+        color:#FFFF00;
+        }
+#bottom{ /*Id tag designed specially for the bottom part of the table, where the javascript is applied.*/
+        background-color:#C0C0C0; 
+        text-align:center;
+        }
+#bigtable{ /*Designed and applied for the main table or big table.*/
+            border-spacing:6px; 
+            padding:5px;
+            width:990px;
+            }
+#lefttable{ /*Created and used for the left side of the main table, where the main-menu.gif is used.*/
+            vertical-align:top; 
+            text-align:center;
+            background-color:#C0C0C0;
+            width:180px;
+            }
+

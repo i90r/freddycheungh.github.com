@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+      "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Tables Examples</title>
+    <link rel='stylesheet' href='css/sitecss.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='css/tables-page.css' type='text/css' media='screen' />
+</head>
+<body>
+<div>
+<a id='top'></a>                                             <!-- Marker where we want the user to go when "TOP" is clicked!-->
+</div>
+<table id='bigtable'>                                         <!-- Main table !-->
+    <tr>
+        <td id='lefttable'>
+            <img src='images/main-menu.gif' usemap='#map' alt='menu'/>  <!-- Main menu image!-->
+            <map name='map' id='map'>
+                <area shape='rect' coords='11,69,164,89' href='index.html' alt='home' title='Home'/>
+                <area shape='rect' coords='11,105,163,126' href='tables-with-css.html' alt='Tables examples' title='Tables example'/>
+                <area shape='rect' coords='11,136,164,156' href='lists-with-css.html' alt='List examples' title='Lists examples'/>
+                <area shape='rect' coords='11,169,163,189' href='images-with-css.html' alt='Image examples' title='Image examples'/>
+                <area shape='rect' coords='11,199,163,222' href='text-with-css.html' alt='Text examples' title='Text examples'/>
+                <area shape='rect' coords='11,237,163,258' href='faq-with-css.html' alt='faq' title='FAQ'/>
+                <area shape='rect' coords='11,269,163,290' href='contact-with-css.html' alt='contact' title='Contact'/>
+                <area shape='rect' coords='11,301,163,322' href='honesty-with-css.html' alt='honesty' title='Honesty'/> 
+                <area shape='rect' coords='11,338,163,358' href='index-with-css.html' alt='home' title='Home'/>
+                <area shape='default' nohref='nohref' alt='Not define' title='Not define'/>
+            </map>
+            <a href='guestbook/index.html'><img src='images/guestbook.png' alt='guestbook'/></a>
+        </td>
+        <td class='right'>
+            <table>
+                <tr>
+                    <td class='italic'>>> >> Table Examples</td>
+                </tr>
+                <tr>
+                    <td class='center'>
+                    <img src='images/table-sub-menu.gif' usemap='#map2' alt='tables' /> <!-- Table examples image !-->
+                    <map name='map2' id='map2'>
+                        <area shape='rect' coords='14,9,121,40' href='#example1' alt='tables1' title='table example 1'/>
+                        <area shape='rect' coords='130,10,236,39' href='#example2' alt='tables2' title='table example 2'/>
+                        <area shape='rect' coords='246,8,353,39' href='#example3' alt='tables3' title='table example 3'/>
+                        <area shape='rect' coords='360,9,468,40' href='#example4' alt='tables4' title='table example 4'/>
+                        <area shape='default' nohref='nohref' alt='Not define' title='Not define'/>
+                    </map>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class='indent'>
+                        Tables in xHTML are very frequently used, specially
+                        for charts. Many pages such as shopping sites uses table for the size chart. There are
+                        also table for recepies, cellphone specifications, and many other things which gives 
+                        the user an easier way to search what they want. There are many tags or attributes which 
+                        can be used on tables such as the width, border, background, cellspacing, align, and so
+                        many mores. Just to name a few, they can change the size of the table, align the content 
+                        of it and many other things making it more user friendly. 
+                        <hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;
+                    <a id='example1'></a>       <!-- Marker where the user will go once he press Text example 1 image!-->
+                        <table class='table1 center'>
+                        <caption>Example 1: width, cellpadding &amp; cellspacing</caption>
+                            <tr>
+                                <td>Column 1 Row 1</td>
+                                <td>Column 2 Row 1</td>
+                                <td>Column 3 Row 1</td>
+                                <td>Column 4 Row 1</td>
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 2</td>
+                                <td>Column 2 Row 2</td>
+                                <td>Column 3 Row 2</td>
+                                <td>Column 4 Row 2</td>
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 3</td>
+                                <td>Column 2 Row 3</td>
+                                <td>Column 3 Row 3</td>
+                                <td>Column 4 Row 3</td>
+                            </tr>
+                        </table>
+                        <p> &nbsp;</p>
+                        <a href='#top'>Top</a>  <!-- Top button, where the user will return to the top of the page!-->
+                        <hr class='width'/>       <!-- Horizontal rule which seperates the example!-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <a id='example2'></a>
+                        <table class='table2 center'>
+                        <caption> Example 2: (Caption) Height, table heading &amp; vertical aligned</caption>
+                            <tr>
+                                <th>Column 1 Row 1</th>    <!--Table heading, centered by default!-->
+                                <th>Column 2 Row 1</th>
+                                <th>Column 3 Row 1</th>
+                            </tr>
+                            <tr> 
+                                <td class='ex2'>Column 1 Row 2</td>  <!--Height defined, this td is aligned down!-->
+                                <td id='bottomalign'>Column 2 Row 2</td>  <!-- Vertically aligned at the bottom !-->
+                                <td id='right'>Column 3 Row 2</td>  <!-- Vertically aligned to the right !-->
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 3</td>
+                                <td>Column 2 Row 3</td>
+                                <td id='width'>Column 3 Row 3</td>
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 4</td>
+                                <td>Column 2 Row 4</td>
+                                <td class='center'>Column 3 Row 4</td>
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 5</td>
+                                <td>Column 2 Row 5</td>
+                                <td>Column 3 Row 5</td>
+                            </tr>
+                            <tr>
+                                <td>Column 1 Row 6</td>
+                                <td>Column 2 Row 6</td>
+                                <td>Column 3 Row 6</td>
+                            </tr>
+                        </table>
+                        <p> &nbsp;</p>
+                        <a href='#top'>Top</a>
+                        <hr class='width'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <a id='example3'></a>
+                        <table class='table3 center'>
+                        <caption>Example 3: colspan &amp; rowspan</caption>
+                            <tr>
+                                <th colspan='2'>Column 1&amp;2 Row 1</th>
+                                <th>Column 3 Row 1</th>
+                                <th>Column 4 Row 1</th>
+                            </tr>
+                            <tr> 
+                                <td rowspan='3'>Column 1 Row 2,3 &amp; 4</td>
+                                <td>Column 2 Row 2</td>
+                                <td>Column 3 Row 2</td>
+                                <td>Column 4 Row 2</td>
+                            </tr>
+                            <tr>
+                                <td>Column 2 Row 3</td>
+                                <td>Column 3 Row 3</td>
+                                <td>Column 4 Row 3</td>
+                            </tr> 
+                            <tr>
+                                <td>Column 2 Row 4</td>
+                                <td>Column 3 Row 4</td>
+                                <td>Column 4 Row 4</td>
+                            </tr>
+                        </table>
+                        <p> &nbsp;</p>
+                        <a href='#top'>Top</a>
+                        <hr class='width'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <a id='example4'></a>
+                        <table class='table4 center'> <!--Main table of the nested table!-->
+                            <caption>Example 4: Nested Table</caption>
+                            <tr>
+                                <td class='center'>Nested Table
+                                    <table class='table4'> <!--First nested table inside the first td!-->
+                                        <tr>
+                                            <td>1st Row of the 2nd Table</td>
+                                            <td>1st Row of the 2nd table</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2nt Row of the 2nd Table</td>
+                                            <td>2nd Row of the 2nd table</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class='table4'> <!--Second table located on the right side!-->
+                                        <tr>
+                                            <td>
+                                                First Row (Second Nested Table)
+                                            </td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td> 
+                                            Second Row (Seconde Nested Table)
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>&nbsp;</p>
+                        <a href='#top'>Top</a>
+                        <hr class='width'/>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan='2' id='bottom'> 
+            <script type='text/javascript'>
+   //<![CDATA[
+
+    // JavaScript code to validate xHTML 1.0
+    document.write ("<a href='http://validator.w3.org/check?uri=" +
+       location.href+ "\;ss=1;verbose=1' target='display'>" +
+       "<img src='https://cs.senecac.on.ca/~int222/images/valid-xhtml10.png' " +
+       "width='60' height='21' border='0' " +
+       "alt='Valid xHTML 1.0' title='Valid xHTML 1.0' /></a>  ")
+
+    // JavaScript code to validate CSS 
+    document.write ("<a href='http://jigsaw.w3.org/css-validator/validator?uri=" +
+      location.href +"' target='display'>" +
+      "<img id='v_css' src='https://cs.senecac.on.ca/~int222/images/valid-css.png'" + 
+      " width='60' height='21' border='0' " + 
+      " alt='Valid CSS' title='Valid CSS' /></a>  ")
+
+    // JavaScript code to display Last Modified date/time
+    dt=new Date(document.lastModified);   // Get document last modified date
+    document.write("<small>This page was last modified on "+dt.toLocaleString()+"</small>") 
+
+   //]]>
+            </script>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

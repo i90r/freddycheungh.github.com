@@ -1,0 +1,1 @@
+The text editor was created and implemented on a Movie Browser text-based app.
