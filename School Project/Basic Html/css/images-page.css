@@ -1,0 +1,12 @@
+.image{ /*Used for centering the images.*/
+        margin-right:auto; 
+        margin-left:auto;
+        }
+img.border{ /*Used for applying border to the images. To be more 
+            Specific, it is applied on example 3 and 4.*/
+        border-style:solid
+        }
+#reduce{ /*Applied for a width and height reduction. Used on example 2.*/
+        width:100px; 
+        height:100px;
+        }

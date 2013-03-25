@@ -1,0 +1,64 @@
+table.center{ /*Used for table tag only. Attribute to center the tables.*/
+            margin-right:auto; 
+            margin-left:auto;
+            }
+table.table1{ /*Applied for the first table example. Applying all the attributes
+            required*/
+            border-style:outset; 
+            border-spacing:3px; 
+            padding:1px; 
+            width:600px; 
+            background-color:#CCCCCC;
+            color:#000000;
+            } 
+table.table1 td{ /*Applied on the first example's td. Setting borders.*/
+                border-style:inset;
+                }
+table.table2{ /*Applied for the second example table.*/
+            border-style:outset; 
+            padding:2px; 
+            background-color:#CCCCCC;
+            color:#000000;
+            }
+table.table2 td{ /*Used on table td only. Used specially on the second example table*/
+            border-style:inset;
+            }
+table.table2 th{ /*Used on table th only. Used specially on the second example table*/
+            border-style:inset;
+            }
+td.ex2{ /*Only applicable on td tag. Used for the second example table setting a hight
+        and a vertical alignment.*/
+        height:200px; 
+        vertical-align:top;
+        }
+#width{ /*Id used to set a 400 pixel width. Used on the a second example td. Can
+        be applied anywhere.*/
+        width:400px
+        }
+#bottomalign{ /*Implemented on a second example td. Can be used anywhere.*/
+            vertical-align:bottom;
+            }
+#right{ /*Implemented on a second example td. Can be also used anywhere.*/
+        text-align:right;
+        }
+table.table3{ /*Applied for the third example table. Setting borders and a background color.*/
+            border-style:outset; 
+            background-color:#CCCCCC;
+            color:#000000;
+            }
+table.table3 td{ /*Applied on the third example's td. Setting borders.*/
+                border-style:inset;
+                }
+table.table3 th{ /*Applied on the third example's th. Setting borders.*/
+                border-style:inset;
+                }
+table.table4{ /*Applied for the forth and last example table. Setting borders and a
+            background color.*/
+            border-style:outset; 
+            background-color:#CCCCCC;
+            color:#000000;
+            }
+table.table4 td{ /*Applied on the forth example's td. Setting borders.*/
+            border-style:inset;
+            }
+

@@ -1,0 +1,22 @@
+ul.square{ /*Can only be used on ul tag. Defining it with a square shape listing.*/
+        list-style-type:square;
+        }
+ul.disc{ /*Can only be used on ul tag. Defining it with a hallow form listing.
+        Also known as the default ul listing.*/
+        list-style-type:disc;
+        }
+ul.circle{ /*Can only be used on ul tag. Defining it with a empty circle shape listing*/
+        list-style-type:circle;
+        }
+ol.letter{ /*Can only be used on ol tag. Applying a letter listing. eg:a,b,c,d...*/
+        list-style-type:lower-alpha;
+        }
+ol.decimal{ /*Can only be used on ol tag. Used on number listing. eg:1,2,3,4...*/
+        list-style-type:decimal;
+        }
+ol.roman{ /*Can only be used on ol tag. Used on lower roman listing. eg:i,ii,iii,iv...*/
+        list-style-type:lower-roman;
+        }
+ol.uproman{ /*Can only be used on ol tag. Used for upper roman listing. eg: I,II,III,IV...*/
+        list-style-type:upper-roman;
+        }

@@ -1,0 +1,17 @@
+p b{ /*Once a b tag is applied inside a p tag. The bold tag will be applied with
+    a white background and a darkblue letters.*/
+    background-color:#FFFFFF; 
+    color:#006699;
+    } 
+blockquote.style{ /*Changes the blockquote content font.*/
+                font-family:"Comic Sans MS", Serif;
+                }
+i.bordered{ /*Implemented only on the i tag. Setting a underline on the content
+            within it.*/
+            text-decoration:underline;
+            }
+big.margin{ /*Used on the Big tag. Applying a margin size in pixel and 
+            a padding in pixels.*/
+            margin:25px; 
+            padding:15px;
+            }

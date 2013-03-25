@@ -1,0 +1,18 @@
+body.color{ /*Used only on the body tag. Setting the background to blue and text color to black. 
+			Applied on the filler.html body.*/
+			background-color:#3366FF; 
+			color:#000000;
+			}
+.padding{ /*Can be implemented on the any tag. Setting a 10px padding. Used mainly
+			on the greeting.html.*/
+		padding:10px;
+		}
+h3{ /*When h3 tag is used. Text will be centered and font will be changed to Comic Sans MS.
+	Used on sign-guest-book.html*/
+	text-align:center; 
+	font-family:"Comic Sans MS", Serif;
+	}
+span{ /*Attribute applied once the span tag is used. Also used on sign-guest-book.html for
+	bolding the names of the input, selector, and textarea tag.*/
+	font-weight:bold;
+	}

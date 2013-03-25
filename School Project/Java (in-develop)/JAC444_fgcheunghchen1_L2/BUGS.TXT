@@ -1,0 +1,16 @@
+No Bugs found!
+
+Summary:
+
+Lab2A_1: Succesfully completed, tested with the following strings:
+	helloWorld
+	hiHowAreYou
+	ABCD
+	aBCD
+	" " (inserted only a space, this will prompt an error)
+Lab2A_2: Succesfully completed, tested with the following input:
+	a.b
+	A.B
+	a.B
+	test.bugs
+	hiareyouthere (this will generate an error and user has to reinput)

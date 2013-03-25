@@ -1,0 +1,13 @@
+#
+First line will determine which marker value will be used.
+This is DataReader1.txt, which test the defaul marker. #default value is "#"
+test 1 #low! //will display test 1 
+#hello#world	//will not be display because it is located at the beggining of the line.
+test2!	#will show test 2 but not this comment.	
+@test3  #once again, will show test 3 but not this comment.	
+//test4  #once again, will show test 4 but not this comment.	
+
+test6 helloWorld! #test to display 2 word separated by a space
+   testing 5	# test spaces before a word
+ 
+hello W#orld #will display everything before the comment marker.

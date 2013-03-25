@@ -1,0 +1,13 @@
+@
+
+First line will determine which marker value will be used.
+
+This is DataReader2.txt, which it is used to primarily test the resetMarker(...) method with non null marker values. 
+@test 1 // @ will be consider as a marker. Will not show because it's an entire line comment.
+d@ta // will print out "d". @ is the comment marker. 
+#this line will shown. Comment marker is not in this line.
+//this line will also be shown. no comment marker.
+
+blank line above @used to test empty lines.
+	
+tab line above @used to test tabs.

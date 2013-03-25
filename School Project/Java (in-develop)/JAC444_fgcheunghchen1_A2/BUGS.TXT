@@ -1,0 +1,1 @@
+No bugs encountered, everything runs as described. The first line of DataReader?.txt determines which marker value is to be used. Everything meets the requirements.

@@ -1,0 +1,16 @@
+
+In every Lab except Lab1 and all Assignments you will be required to
+write a file named BUGS.TXT (In each case, it should replace this file).
+
+This file should be the only file in the top-level directory within the
+zip file.
+
+As the name indicates it should be an ASCII text file and be produced with
+a regular text editor program of your choice.
+
+It will contain your truthful assessment of the state of the code you are
+submitting.  As such it allows you to submit work that is incomplete and
+get some marks for that without causing a lot of wasted effort by either
+of us.
+ 
+
